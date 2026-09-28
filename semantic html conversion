@@ -1,22 +1,41 @@
-<!-- BAD: Non-semantic version -->
-<div class="header">
-    <div class="logo">My Site</div>
-    <div class="nav">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">About</div>
-        <div class="nav-item">Contact</div>
-    </div>
-</div>
-<div class="main">
-    <div class="article">
-        <div class="title">Welcome to My Site</div>
-        <div class="text">This is my first paragraph...</div>
-        <div class="text">This is my second paragraph...</div>
-    </div>
-    <div class="sidebar">
-        <div class="widget">Recent Posts</div>
-    </div>
-</div>
-<div class="footer">
-    <div class="copyright">© 2026</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Site</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Welcome to My Site</h2>
+
+            <p>This is my first paragraph...</p>
+            <p>This is my second paragraph...</p>
+        </article>
+
+        <aside>
+            <h2>Recent Posts</h2>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2026</p>
+    </footer>
+
+</body>
+</html>
