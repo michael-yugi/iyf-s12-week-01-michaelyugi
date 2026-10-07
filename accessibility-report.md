@@ -13,4 +13,4 @@
 - **Redundant title text:** Removed repeated or unnecessary title attributes.
 
 ## Final Lighthouse accessibility score
-- 9.8
+- 9.5
