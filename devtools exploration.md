@@ -8,12 +8,12 @@
 6. p
 ### PAGE TITLE
 Example domain
-### NUMBER OF HEADING
+### NUMBER OF HEADINGS
 one
 
 ## WEBSITE 2
-### NAVIGATION MENU IS WRAPPED IN WHAT  
-is wrapped in navigation element.
+### NAVIGATION MENU IS WRAPPED IN WHAT? It  
+is wrapped in a navigation element.
 ### HOW IS THE SEARCH BAR STRUCTURED
 The search bar contains an element for entering searches.
 ### WHAT HAPPENS WHEN YOU HOVER OVER THE LINKS?
