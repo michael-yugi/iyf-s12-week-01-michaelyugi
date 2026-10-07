@@ -4,32 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Form</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Contact Us</h1>
-        <form action="#" method="post">
-            <label for="full-name">Full name:</label>
-            <input type="text" id="full-name" name="fullName" required>
 
+    <h1>Contact Me</h1>
+
+    <form>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <!-- Full Name -->
+            <label for="name">Full Name:</label>
+            <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Enter your full name"
+                required
+            >
+            <br><br>
+
+            <!-- Email -->
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="Enter your email"
+                required
+            >
+            <br><br>
 
+            <!-- Phone -->
             <label for="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone">
+            <input 
+                type="tel" 
+                id="phone" 
+                name="phone" 
+                placeholder="Enter your phone number"
+            >
+            <br><br>
 
+            <!-- Subject -->
             <label for="subject">Subject:</label>
-            <input type="text" id="subject" name="subject" required>
+            <select id="subject" name="subject">
+                <option value="general">General Inquiry</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+            </select>
+            <br><br>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <!-- Message -->
+            <label for="message">Message:</label><br>
+            <textarea 
+                id="message" 
+                name="message" 
+                placeholder="Write your message (at least 50 characters)"
+                minlength="50"
+                required
+            ></textarea>
+            <br><br>
 
-            <label for="newsletter">Subscribe to newsletter:</label>
-            <input type="checkbox" id="newsletter" name="newsletter">
+            <!-- Newsletter -->
+            <input 
+                type="checkbox" 
+                id="newsletter" 
+                name="newsletter"
+            >
+            <label for="newsletter">Subscribe to newsletter</label>
+            <br><br>
 
+            <!-- Submit -->
             <button type="submit">Submit</button>
-        </form>
-    </div>
+
+        </fieldset>
+
+    </form>
+
 </body>
 </html>
