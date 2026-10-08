@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Michael Yugi</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Contact Section -->
+    <main>
+        <h1>Contact Me</h1>
+
+        <p>
+            Have a question or want to work with me? Send me a message.
+        </p>
+
+        <!-- Contact Form -->
+        <form>
+
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+                <br><br>
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+                <br><br>
+
+                <!-- Phone -->
+                <label for="phone">Phone:</label>
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                >
+                <br><br>
+
+                <!-- Subject -->
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="work">Work Opportunity</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+                <br><br>
+
+                <!-- Message -->
+                <label for="message">Message:</label><br>
+                <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Write your message (at least 50 characters)"
+                    minlength="50"
+                    required
+                    rows="6"
+                    cols="40"
+                ></textarea>
+                <br><br>
+
+                <!-- Newsletter -->
+                <input
+                    type="checkbox"
+                    id="newsletter"
+                    name="newsletter"
+                >
+                <label for="newsletter">
+                    Subscribe to my newsletter
+                </label>
+                <br><br>
+
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
+
+            </fieldset>
+
+        </form>
+
+        <!-- Social Media -->
+        <section>
+            <h2>Social Media</h2>
+
+            <p>
+                <a href="https://github.com/michael-yugi">
+                    GitHub
+                </a>
+            </p>
+
+            <p>
+                <a href="https://www.linkedin.com/in/michael%20yugi/">
+                    LinkedIn
+                </a>
+            </p>
+
+            <p>
+                <a href="https://x.com/michaelyugi1">
+                    X (Twitter)
+                </a>
+            </p>
+        </section>
+
+        <!-- Contact Details -->
+        <section>
+            <h2>Contact Details</h2>
+
+            <p>
+                Email:
+                <a href="mailto:michaelyugi598@gmail.com">
+                    michaelyugi598@gmail.com
+                </a>
+            </p>
+
+            <p>
+                Phone:
+                <a href="tel:0104219448">
+                    0104219448
+                </a>
+            </p>
+        </section>
+
+        <!-- Location -->
+        <section>
+            <h2>Location</h2>
+
+            <p>Kenya</p>
+            <p>Timezone: East Africa Time (EAT), UTC+3</p>
+        </section>
+
+    </main>
+
+</body>
+</html>
