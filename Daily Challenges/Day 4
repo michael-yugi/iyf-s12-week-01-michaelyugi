@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Image Gallery</title>
+	<style>
+		* { box-sizing: border-box; }
+		body {
+			margin: 0;
+			padding: 2rem;
+			font-family: Arial, sans-serif;
+			color: #222;
+			background: #f4f4f4;
+		}
+		h1 { text-align: center; }
+		.gallery {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 1rem;
+			max-width: 1100px;
+			margin: 2rem auto;
+		}
+		figure {
+			margin: 0;
+			overflow: hidden;
+			border-radius: 8px;
+			background: #fff;
+			box-shadow: 0 2px 8px rgb(0 0 0 / 12%);
+		}
+		figure img {
+			display: block;
+			width: 100%;
+			aspect-ratio: 4 / 3;
+			object-fit: cover;
+		}
+		figcaption { padding: 0.8rem; text-align: center; }
+	</style>
+</head>
+<body>
+	<h1>Image Gallery</h1>
+	<main class="gallery">
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+1" alt="Placeholder image 1">
+			<figcaption>Image One</figcaption>
+		</figure>
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+2" alt="Placeholder image 2">
+			<figcaption>Image Two</figcaption>
+		</figure>
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+3" alt="Placeholder image 3">
+			<figcaption>Image Three</figcaption>
+		</figure>
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+4" alt="Placeholder image 4">
+			<figcaption>Image Four</figcaption>
+		</figure>
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+5" alt="Placeholder image 5">
+			<figcaption>Image Five</figcaption>
+		</figure>
+		<figure>
+			<img src="https://placehold.co/600x450?text=Image+6" alt="Placeholder image 6">
+			<figcaption>Image Six</figcaption>
+		</figure>
+	</main>
+</body>
+</html>

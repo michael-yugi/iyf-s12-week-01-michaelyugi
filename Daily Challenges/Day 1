@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge - Day 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <p>Daily HTML Challenge</p>
+        <h1>Day 1: Explore More HTML Tags</h1>
+    </header>
+    <main>
+        <section class="challenge">
+            <h2>Today’s challenge</h2>
+            <p>
+                Welcome to Day 1! HTML has useful elements for more than headings
+                and paragraphs. Today, explore tags that add meaning to text and
+                make extra information available when readers need it.
+            </p>
+            <p>
+                Start with <abbr title="HyperText Markup Language">HTML</abbr>,
+                then look for the <mark>highlighted ideas</mark> as you explore.
+            </p>
+        </section>
+        <section class="instructions">
+            <h2>Tags to try</h2>
+            <ol>
+                <li>Use <code>&lt;abbr&gt;</code> to explain an abbreviation.</li>
+                <li>Use <code>&lt;blockquote&gt;</code> for a longer quotation.</li>
+                <li>Use <code>&lt;cite&gt;</code> to identify a creative work.</li>
+                <li>Use <code>&lt;mark&gt;</code> to highlight relevant text.</li>
+                <li>Use <code>&lt;time&gt;</code> to provide a machine-readable date.</li>
+                <li>Use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> for expandable information.</li>
+            </ol>
+        </section>
+        <section class="examples">
+            <h2>A thought to remember</h2>
+            <blockquote>
+                <p>The web is more than what you see; it is also the meaning you give to it.</p>
+                <footer>— A note for curious learners</footer>
+            </blockquote>
+            <p>
+                Keep exploring with <cite>your favorite learning resource</cite>,
+                and remember that semantic HTML helps browsers and people understand
+                the content.
+            </p>
+            <p>
+                Today’s practice session:
+                <time datetime="2026-10-08">October 8, 2026</time>.
+            </p>
+            <details>
+                <summary>Why use semantic HTML?</summary>
+                <p>
+                    Semantic elements describe the purpose of your content. That
+                    makes pages easier to navigate, maintain, and understand with
+                    assistive technologies.
+                </p>
+            </details>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Daily HTML Challenge</p>
+    </footer>
+</body>
+</html>

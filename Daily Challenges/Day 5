@@ -1,0 +1,35 @@
+<doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge - Day 5</title>
+</head>
+<body>
+    <article>
+    <h1>My Journey into Web Development</h1>
+
+    <p>By Michael Yugi | October 8, 2026</p>
+
+    <img src="images/web.jpg" alt="Web development">
+
+    <h2>How I Started</h2>
+
+    <p>
+        I started learning HTML and web development in September 2026.
+    </p>
+
+    <h2>What I Have Learned</h2>
+
+    <p>
+        I have learned how to create web pages using HTML and style them with CSS. I have also learned about responsive design and how to make websites look good on different devices.
+    </p>
+
+    <h2>Related Posts</h2>
+
+    <p>
+        Learn more about HTML and CSS.
+    </p>
+</article>
+</body>
+</html>

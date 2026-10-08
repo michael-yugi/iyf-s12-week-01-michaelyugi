@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge - Day 2</title>
+</head>
+<body>
+    <nav>
+    <div>Michael Yugi</div>
+
+    <div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+    <header>
+        <h1>Daily Challenge - Day 2</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Challenge Overview</h2>
+            <p>Welcome to Day 2 of the Daily Challenge! Today, we will focus on creating a simple navigation bar using HTML and CSS.</p>
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Create a navigation bar with links to Home, About, Services, and Contact sections.</li>
+                <li>Use semantic HTML elements for the navigation bar.</li>
+                <li>Style the navigation bar using CSS to make it visually appealing.</li>
+            </ol>
+        </section>
+    </main>
+
+</body>
+</html>

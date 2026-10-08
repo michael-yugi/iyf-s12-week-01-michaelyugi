@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Challenge - Day 3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Daily Challenge - Day 3</h1>
+        <p>Welcome to Day 3 of the Daily Challenge!</p>
+    </header>
+    <main>
+        <section>
+            <section>
+    <h2>Contact Me</h2>
+
+    <address>
+        Nairobi, Kenya
+    </address>
+
+    <p>
+        Email:
+        <a href="mailto:michaelyugi598@gmail.com">michaelyugi598@gmail.com</a>
+    </p>
+
+    <p>
+        Phone:
+        <a href="tel:+254700000000">+254700000000</a>
+    </p>
+
+    <p>
+        <a href="https://github.com/">GitHub</a>
+        <a href="https://x.com/">X</a>
+    </p>
+</section>
+</section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Michael Yugi</p>
+    </footer>
+</body>
+</html>
